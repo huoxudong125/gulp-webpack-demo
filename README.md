@@ -8,11 +8,22 @@
 安装依赖包：
 `npm install`
 
+```
+npm install
+```
+
+```
+npm install gulp-util gulp-less gulp-concat gulp-open gulp-uglify gulp-cssmin gulp-md5-plus  gulp-file-include gulp-clean gulp-css-spriter gulp-css-base64 webpack gulp-connect
+```
+
 开发：
 `gulp dev`
 
 发布：
 `gulp`
+
+
+
 
 **注意：**
 该demo项目15年构建，当时还是采用1.0版本的webpack。现在webpack已经更新到2.0+，更多新功能和修改请参考[官网](https://webpack.js.org/)。
