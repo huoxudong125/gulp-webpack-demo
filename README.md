@@ -5,21 +5,24 @@
 
 为了支持类似fis的`__inline`和`__sprite`语法（base64和雪碧图），对依赖包`gulp-css-base64`和`gulp-css-spriter`都做了修改，所以暂时保留在node_modules中。你可以不必再下载这两个包。
 
-安装依赖包：
+## 安装
+如果使用现有的package.json安装依赖包：
+
 `npm install`
 
+或者
 ```
-npm install gulp
-```
-
-```
-npm install gulp-util gulp-less gulp-concat gulp-open gulp-uglify gulp-cssmin gulp-md5-plus  gulp-file-include gulp-clean gulp-css-spriter gulp-css-base64 webpack gulp-connect
+npm install gulp -D
 ```
 
-开发：
+```
+npm install gulp-util gulp-less gulp-concat gulp-open gulp-uglify gulp-cssmin gulp-md5-plus  gulp-file-include gulp-clean gulp-css-spriter gulp-css-base64 webpack gulp-connect -D
+```
+
+## 开发：
 `gulp dev`
 
-发布：
+## 发布：
 `gulp`
 
 
